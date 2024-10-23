@@ -1,0 +1,70 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+void main()
+{
+    int gr,ap,a,bp,b,cp,c,dp,d,e,tgp,cgpa;
+    gr==10;
+    printf("how many A+  :");
+    scanf("%d",&gr);
+    ap=gr*9;
+    if(gr<10){
+        printf("how many A :");
+        scanf("%d",&gr);
+    a=gr*8;
+    }
+    
+    else if(gr<10){
+        printf("how many B+ :");
+        scanf("%d",&gr);
+    bp=gr*7;
+    }
+    
+    else if(gr<10){
+        printf("how many B :");
+        scanf("%d",&gr);
+    b=gr*6;
+    }
+    
+    else if(gr<10){
+        printf("how many c+ :");
+        scanf("%d",&gr);
+    cp=gr*5;
+    }
+    
+    else if(gr<10){
+        printf("how many c :");
+        scanf("%d",&gr);
+    c=gr*4;
+    }
+    
+    else if(gr<10){
+        printf("how many D+ :");
+        scanf("%d",&gr);
+    dp=gr*3;
+    }
+    
+    else if(gr<10){
+        printf("how many d :");
+        scanf("%d",&gr);
+    d=gr*2;
+    }
+    
+   else if(gr<10){
+        printf("how many e :");
+        scanf("%d",&gr);
+    e=gr*1;
+    }
+    
+    
+    tgp=ap+a+bp+b+cp+c+dp+d+e;
+    cgpa=tgp * 1.11;
+    printf("cgpa = %d",cgpa);
+}
